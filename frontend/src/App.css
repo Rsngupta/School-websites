@@ -1,0 +1,41 @@
+/* Navbar styling */
+.navbar {
+  background-color: #2e8b57;
+  padding: 15px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 5px 10px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styling */
+.main {
+  padding: 40px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #2e8b57;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}

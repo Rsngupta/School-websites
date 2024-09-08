@@ -1,0 +1,50 @@
+.gallery-container {
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.gallery-container h1 {
+  color: #4682b4;
+  margin-bottom: 20px;
+}
+
+.gallery-slide {
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+.gallery-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-slide:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.gallery-slide:hover img {
+  transform: translateY(-10px); /* Float image on hover */
+}
+
+/* Carousel dots customization */
+.slick-dots li button:before {
+  color: #4682b4; /* Custom color for dots */
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #2e8b57; /* Color for active dot */
+}
+
+.slick-prev, .slick-next {
+  z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #4682b4; /* Custom arrow color */
+}

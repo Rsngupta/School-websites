@@ -1,0 +1,23 @@
+.contact-container {
+  padding: 40px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2em;
+  color: #4682b4;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 1.1em;
+  color: #333;
+  margin: 10px 0;
+}
+
+.contact-message {
+  font-size: 1em;
+  color: #666;
+  margin-top: 20px;
+}
